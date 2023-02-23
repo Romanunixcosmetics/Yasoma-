@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text);
+}
+
+html, body, #app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--body);
+    font-family: var(--font);
+}
+
+header {
+    flex: 0 0 auto;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--border);
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: calc(1280px + 2rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}

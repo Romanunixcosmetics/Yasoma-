@@ -1,0 +1,21 @@
+.bb-header {
+    display: flex;
+    justify-content: flex-start;
+    height: 56px;
+
+    &__logo {
+        margin-right: 2.5rem;
+        color: rgb(15 23 42);
+    }
+
+    &__logo,
+    &__nav,
+    &__actions {
+        display: flex;
+        align-items: center;
+    }
+
+    &__actions {
+        margin-left: auto;
+    }
+}

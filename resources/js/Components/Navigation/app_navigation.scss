@@ -1,0 +1,25 @@
+.bb-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+
+    &__li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin: auto .1rem;
+    }
+
+    &__link {
+        padding: 0.225rem .85rem;
+        font-weight: 500;
+        font-size: .93rem;
+        color: var(--text-slate-700);
+        border-radius: 99px;
+    }
+
+    &__link:hover,
+    &__link_active {
+        color: var(--text-slate-900);
+    }
+}
